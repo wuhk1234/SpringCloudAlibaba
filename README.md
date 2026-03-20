@@ -77,10 +77,30 @@
 
 ![用户组管理](./pic/用户组管理.png)
 
-![注册中心](./pic/注册中心.png)
+![相关组件](./pic/相关组件.png)
+
+![Skywalking-agent配置网关](./pic/Skywalking-agent配置网关.png)
+
+![nacos-seata注册](./pic/nacos-seata注册.png)
+
+![nacos集群部署](./pic/nacos集群部署.png)
 
 ![swagger](./pic/swagger.png)
+
+![nacos-自定义微服务注册](./pic/nacos-自定义微服务注册.png)
+
+![seata配置1](./pic/seata配置1.png)
+
+![seata配置2](./pic/seata配置2.png)
+
+![skywalking配置1](./pic/skywalking配置1.png)
+
+![skywalking配置2](./pic/skywalking配置2.png)
 
 
 ## License
 cloud-vue 基于apache2.0 <http://www.apache.org/licenses/LICENSE-2.0>
+
+如果项目对您有用，请作者喝杯咖啡吧！谢谢
+
+![收款](./pic/收款.jpg)

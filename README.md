@@ -97,7 +97,6 @@
 
 ![skywalking配置2](./pic/skywalking配置2.png)
 
-
 ## License
 cloud-vue 基于apache2.0 <http://www.apache.org/licenses/LICENSE-2.0>
 

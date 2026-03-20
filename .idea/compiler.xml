@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloudAlibabaStock" />
+        <module name="SpringCloudAlibabaSentinel" />
+        <module name="SpringCloudAlibabaAuthServer" />
+        <module name="SpringCloudAlibabaVueCould" />
+        <module name="SpringCloudAlibabaOrder" />
+        <module name="SpringCloudAlibabaDeepSeek" />
+        <module name="SpringCloudAlibabaStreamKafka" />
+        <module name="SpringCloudAlibabaImageCaptcha" />
+        <module name="sentinel-nacos" />
+        <module name="SpringCloudAlibabaGateway" />
+        <module name="SpringCloudAlibabaShardingSphere" />
+        <module name="SpringCloudAlibabaRedisService" />
+        <module name="SpringCloudAlibabaAuth" />
+        <module name="SpringCloudAlibabaFlowable" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sentinel-nacos" target="1.8" />
+      <module name="SpringCloudAlibaba" target="8" />
+      <module name="SpringCloudAlibabaAuth" target="8" />
+      <module name="SpringCloudAlibabaAuthServer" target="8" />
+      <module name="SpringCloudAlibabaCaptcha" target="8" />
+      <module name="SpringCloudAlibabaDeepSeek" target="8" />
+      <module name="SpringCloudAlibabaFlowable" target="8" />
+      <module name="SpringCloudAlibabaGateway" target="8" />
+      <module name="SpringCloudAlibabaImageCaptcha" target="1.8" />
+      <module name="SpringCloudAlibabaOrder" target="8" />
+      <module name="SpringCloudAlibabaRedisService" target="8" />
+      <module name="SpringCloudAlibabaSentinel" target="8" />
+      <module name="SpringCloudAlibabaShardingSphere" target="8" />
+      <module name="SpringCloudAlibabaStock" target="8" />
+      <module name="SpringCloudAlibabaStreamKafka" target="8" />
+      <module name="SpringCloudAlibabaVueCould" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloudAlibaba" options="" />
+      <module name="SpringCloudAlibabaImageCaptcha" options="-parameters" />
+      <module name="SpringCloudAlibabaOrder" options="" />
+      <module name="SpringCloudAlibabaStock" options="" />
+      <module name="sentinel-nacos" options="-parameters" />
+    </option>
+  </component>
+</project>

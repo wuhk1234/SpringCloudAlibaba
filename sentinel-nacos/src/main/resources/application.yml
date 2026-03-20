@@ -1,0 +1,11 @@
+server:
+  port: 8006
+
+spring:
+  application:
+    name: sentinel-nacos
+  thymeleaf:
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    #开发时关闭缓存,不然没法看到实时页面
+    cache: false

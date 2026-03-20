@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhk.mapper.OrderItemMapper">
+    <insert id="addOne" parameterType="com.wuhk.entity.OrderItem">
+        insert into order_item(orderItemId,userId,orderId,name,price) values(#{orderItemId},#{userId},#{orderId},#{name},#{price})
+    </insert>
+
+    <select id="getByOrderId" parameterType="java.lang.Integer" resultType="com.wuhk.entity.OrderItem">
+         select * from order_item where orderId=#{id}
+    </select>
+
+    <select id="getOrderItemByPrice" parameterType="java.lang.Integer" resultType="com.wuhk.entity.OrderItem">
+        select a.* from order_item a inner join order b on a.orderId = b.orderId where b.totalPrice=#{price}
+    </select>
+</mapper>

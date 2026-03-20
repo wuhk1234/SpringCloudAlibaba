@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26b3c8d4-3199-4f47-9171-940e56521a89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringCloudAlibabaVueCould/src/main/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\User\Idea\myWorkSpace\SpringCloudAlibaba-Maven" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\User\Idea\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2MldHX6ICiykc0bcqtlO6Rmq0Yn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../Android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringCloudAlibabaVueCould/src/main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaOrder\src\main\java\com\wuhk\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wuhk.model" />
+      <recent name="com.wuhk.web" />
+      <recent name="com.wuhk.mapper" />
+      <recent name="com.wuhk.service.impl" />
+      <recent name="com.wuhk.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaVueCould\src\main" />
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaOrder\src\main\java\com\wuhk\mapper" />
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaVueCould\src\main\java\com\wuhk\mapper" />
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaVueCould\src\main\resources" />
+      <recent name="D:\User\Idea\myWorkSpace\SpringCloudAlibaba\SpringCloudAlibabaVueCould\src\main\java\com\wuhk\dao" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/actuator" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v3+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="CommonController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuhk.controller.CommonController" />
+      <module name="SpringCloudAlibabaVueCould" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuhk.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuhk.test.TestController" />
+      <module name="SpringCloudAlibabaRedisService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuhk.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudAlibabaOrder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuhk.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.OrderApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\User\Idea\myWorkSpace\skywalking-agent\skywalking-agent.jar -DSW_AGENT_NAME=oeder-service -DSW_AGENT_COLLECTOR_BACKEND_SERVICES=192.168.176.133:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaAuth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaAuthServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.auth.SpringCloudAlibabaAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaDeepSeekApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaDeepSeek" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaDeepSeekApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaGatewayApplicatiom" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaGatewayApplicatiom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaRedisService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaRedisApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\User\Idea\myWorkSpace\skywalking-agent\skywalking-agent.jar -DSW_AGENT_NAME=redis-service -DSW_AGENT_COLLECTOR_BACKEND_SERVICES=192.168.176.133:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaSentinelApplicatiom" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaSentinel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaSentinelApplicatiom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaShardingSphere" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudAlibabaShardingSphere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuhk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaShardingSphere" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaStreamKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaStreamKafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaStreamKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAlibabaVueCouldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudAlibabaVueCould" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuhk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.SpringCloudAlibabaVueCouldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudAlibabaStock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wuhk.StockApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\User\Idea\myWorkSpace\skywalking-agent\skywalking-agent.jar -DSW_AGENT_NAME=stock-service -DSW_AGENT_COLLECTOR_BACKEND_SERVICES=192.168.176.133:11800" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestController" />
+      <item itemvalue="Application.CommonController" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaSentinelApplicatiom" />
+      <item itemvalue="Spring Boot.StockApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaRedisApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaStreamKafkaApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaDeepSeekApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaAuthServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaGatewayApplicatiom" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaAuthApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaShardingSphere" />
+      <item itemvalue="Spring Boot.SpringCloudAlibabaVueCouldApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.SpringCloudAlibabaVueCouldApplication" />
+        <item itemvalue="Application.CommonController" />
+        <item itemvalue="Spring Boot.SpringCloudAlibabaShardingSphere" />
+        <item itemvalue="Application.TestController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23155738" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26b3c8d4-3199-4f47-9171-940e56521a89" name="Default Changelist" comment="" />
+      <created>1678346015223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678346015223</updated>
+      <workItem from="1678346016804" duration="1847000" />
+      <workItem from="1678347891745" duration="11248000" />
+      <workItem from="1678409619741" duration="7544000" />
+      <workItem from="1678433943461" duration="10040000" />
+      <workItem from="1678450529510" duration="3920000" />
+      <workItem from="1678497084128" duration="11747000" />
+      <workItem from="1678597770440" duration="3698000" />
+      <workItem from="1678668229553" duration="5810000" />
+      <workItem from="1678754367597" duration="8539000" />
+      <workItem from="1678777145189" duration="13183000" />
+      <workItem from="1678842441442" duration="6815000" />
+      <workItem from="1678902191304" duration="663000" />
+      <workItem from="1678947361974" duration="630000" />
+      <workItem from="1679312780700" duration="1345000" />
+      <workItem from="1679359414878" duration="31000" />
+      <workItem from="1679642217386" duration="6510000" />
+      <workItem from="1679713173676" duration="8495000" />
+      <workItem from="1679878540428" duration="7241000" />
+      <workItem from="1679967205627" duration="1182000" />
+      <workItem from="1679985113829" duration="3262000" />
+      <workItem from="1680001963189" duration="10832000" />
+      <workItem from="1680071792274" duration="5817000" />
+      <workItem from="1680138353943" duration="11133000" />
+      <workItem from="1680175397216" duration="4535000" />
+      <workItem from="1680226420143" duration="861000" />
+      <workItem from="1680246000478" duration="592000" />
+      <workItem from="1680247490299" duration="12151000" />
+      <workItem from="1680330537324" duration="6834000" />
+      <workItem from="1680483857165" duration="16310000" />
+      <workItem from="1680569638712" duration="2050000" />
+      <workItem from="1680576085199" duration="820000" />
+      <workItem from="1680590257528" duration="3276000" />
+      <workItem from="1680741963485" duration="3967000" />
+      <workItem from="1680747199496" duration="2450000" />
+      <workItem from="1680762227710" duration="1980000" />
+      <workItem from="1680836555000" duration="633000" />
+      <workItem from="1680837215884" duration="1964000" />
+      <workItem from="1680914580906" duration="1169000" />
+      <workItem from="1681300358885" duration="4333000" />
+      <workItem from="1681305380406" duration="557000" />
+      <workItem from="1681348652247" duration="612000" />
+      <workItem from="1681696949182" duration="6139000" />
+      <workItem from="1681719786170" duration="1392000" />
+      <workItem from="1682495720070" duration="5132000" />
+      <workItem from="1682561102175" duration="2359000" />
+      <workItem from="1683893782757" duration="1301000" />
+      <workItem from="1683938659661" duration="581000" />
+      <workItem from="1683962047128" duration="3151000" />
+      <workItem from="1683969351836" duration="536000" />
+      <workItem from="1684289273506" duration="128000" />
+      <workItem from="1684290189083" duration="798000" />
+      <workItem from="1684743539201" duration="2514000" />
+      <workItem from="1684806046734" duration="2329000" />
+      <workItem from="1685088269169" duration="2644000" />
+      <workItem from="1685169782647" duration="564000" />
+      <workItem from="1685932748444" duration="10021000" />
+      <workItem from="1686012260874" duration="8254000" />
+      <workItem from="1686098863125" duration="277000" />
+      <workItem from="1686100071957" duration="16343000" />
+      <workItem from="1686186022959" duration="11303000" />
+      <workItem from="1686271470103" duration="10454000" />
+      <workItem from="1686297817185" duration="1030000" />
+      <workItem from="1686299601790" duration="1217000" />
+      <workItem from="1686357875488" duration="1326000" />
+      <workItem from="1686384159980" duration="706000" />
+      <workItem from="1686531697738" duration="15692000" />
+      <workItem from="1686616969905" duration="15657000" />
+      <workItem from="1686704538433" duration="2379000" />
+      <workItem from="1686725882504" duration="14885000" />
+      <workItem from="1686789857357" duration="1460000" />
+      <workItem from="1686794086113" duration="5322000" />
+      <workItem from="1686827932767" duration="1980000" />
+      <workItem from="1686876306669" duration="625000" />
+      <workItem from="1687183641998" duration="931000" />
+      <workItem from="1687221929241" duration="1220000" />
+      <workItem from="1688372129897" duration="3452000" />
+      <workItem from="1688431327924" duration="1180000" />
+      <workItem from="1688435680299" duration="26000" />
+      <workItem from="1688627830509" duration="2780000" />
+      <workItem from="1688691072795" duration="1071000" />
+      <workItem from="1688698709157" duration="4958000" />
+      <workItem from="1688777699647" duration="590000" />
+      <workItem from="1688779035253" duration="13357000" />
+      <workItem from="1688950572974" duration="3807000" />
+      <workItem from="1689063002533" duration="1070000" />
+      <workItem from="1689064126362" duration="319000" />
+      <workItem from="1689317774689" duration="3857000" />
+      <workItem from="1689383023865" duration="28000" />
+      <workItem from="1689668732368" duration="3204000" />
+      <workItem from="1689729228996" duration="1400000" />
+      <workItem from="1689903232112" duration="10794000" />
+      <workItem from="1689944258464" duration="1720000" />
+      <workItem from="1689986753184" duration="12552000" />
+      <workItem from="1690160295892" duration="571000" />
+      <workItem from="1690352978286" duration="2408000" />
+      <workItem from="1690420683279" duration="68000" />
+      <workItem from="1690461788921" duration="2166000" />
+      <workItem from="1690464067545" duration="168000" />
+      <workItem from="1690506245619" duration="444000" />
+      <workItem from="1690506713382" duration="1195000" />
+      <workItem from="1690511517493" duration="3621000" />
+      <workItem from="1690528605887" duration="144000" />
+      <workItem from="1690528912805" duration="1342000" />
+      <workItem from="1690543259444" duration="1376000" />
+      <workItem from="1690788012722" duration="30000" />
+      <workItem from="1690790071498" duration="947000" />
+      <workItem from="1690853445041" duration="6091000" />
+      <workItem from="1690878312563" duration="8262000" />
+      <workItem from="1690941982094" duration="3870000" />
+      <workItem from="1691051041757" duration="1672000" />
+      <workItem from="1691196887433" duration="8634000" />
+      <workItem from="1691369699639" duration="1986000" />
+      <workItem from="1691457565996" duration="3528000" />
+      <workItem from="1691463054686" duration="10786000" />
+      <workItem from="1691550035259" duration="3456000" />
+      <workItem from="1691629931226" duration="1839000" />
+      <workItem from="1691826791922" duration="223000" />
+      <workItem from="1692276527546" duration="1097000" />
+      <workItem from="1692426131325" duration="10035000" />
+      <workItem from="1692580630291" duration="6885000" />
+      <workItem from="1692587673790" duration="18224000" />
+      <workItem from="1692667546928" duration="12666000" />
+      <workItem from="1692930610268" duration="449000" />
+      <workItem from="1694245021985" duration="897000" />
+      <workItem from="1698742436713" duration="5460000" />
+      <workItem from="1698808206434" duration="592000" />
+      <workItem from="1698994743756" duration="2133000" />
+      <workItem from="1699059819376" duration="3959000" />
+      <workItem from="1699234494261" duration="514000" />
+      <workItem from="1699235043058" duration="14434000" />
+      <workItem from="1699320417585" duration="213000" />
+      <workItem from="1699320772981" duration="9284000" />
+      <workItem from="1699406182218" duration="6000" />
+      <workItem from="1703298978194" duration="1951000" />
+      <workItem from="1703466297560" duration="6616000" />
+      <workItem from="1703555717897" duration="2237000" />
+      <workItem from="1703639715870" duration="7758000" />
+      <workItem from="1703725346180" duration="1795000" />
+      <workItem from="1703937274948" duration="1262000" />
+      <workItem from="1707029783497" duration="3985000" />
+      <workItem from="1708232700923" duration="1139000" />
+      <workItem from="1708422078944" duration="663000" />
+      <workItem from="1708489226822" duration="704000" />
+      <workItem from="1708565301004" duration="2710000" />
+      <workItem from="1708650456272" duration="522000" />
+      <workItem from="1708914456372" duration="582000" />
+      <workItem from="1709281525146" duration="1602000" />
+      <workItem from="1709370845808" duration="663000" />
+      <workItem from="1709514822197" duration="4273000" />
+      <workItem from="1709601326126" duration="1186000" />
+      <workItem from="1709773121063" duration="5080000" />
+      <workItem from="1709860147124" duration="5213000" />
+      <workItem from="1710119656046" duration="8116000" />
+      <workItem from="1710229581029" duration="2982000" />
+      <workItem from="1710407303660" duration="1027000" />
+      <workItem from="1715651572336" duration="2971000" />
+      <workItem from="1715655847221" duration="1687000" />
+      <workItem from="1716695113600" duration="607000" />
+      <workItem from="1716697459674" duration="2187000" />
+      <workItem from="1716771911713" duration="523000" />
+      <workItem from="1717223081011" duration="936000" />
+      <workItem from="1717900858600" duration="4282000" />
+      <workItem from="1718067831216" duration="300000" />
+      <workItem from="1718346406035" duration="3562000" />
+      <workItem from="1719914245804" duration="285000" />
+      <workItem from="1741420444615" duration="2746000" />
+      <workItem from="1741568171585" duration="491000" />
+      <workItem from="1741655482081" duration="2355000" />
+      <workItem from="1741768728575" duration="695000" />
+      <workItem from="1741828747323" duration="4127000" />
+      <workItem from="1741914306226" duration="581000" />
+      <workItem from="1742026289039" duration="1059000" />
+      <workItem from="1743041705141" duration="2785000" />
+      <workItem from="1744632345893" duration="6800000" />
+      <workItem from="1751030337511" duration="1529000" />
+      <workItem from="1759478689082" duration="5933000" />
+      <workItem from="1759488198395" duration="10920000" />
+      <workItem from="1761664363860" duration="4128000" />
+      <workItem from="1762240996190" duration="11316000" />
+      <workItem from="1763887869193" duration="3374000" />
+      <workItem from="1764229974939" duration="563000" />
+      <workItem from="1764309413135" duration="1070000" />
+      <workItem from="1764665006762" duration="7211000" />
+      <workItem from="1764921294084" duration="588000" />
+      <workItem from="1765530826499" duration="3922000" />
+      <workItem from="1765693092832" duration="12519000" />
+      <workItem from="1765780320873" duration="2940000" />
+      <workItem from="1765801928166" duration="1361000" />
+      <workItem from="1765865573959" duration="137000" />
+      <workItem from="1766038004625" duration="1942000" />
+      <workItem from="1772001980192" duration="3064000" />
+      <workItem from="1772602320615" duration="1375000" />
+      <workItem from="1772687956098" duration="17618000" />
+      <workItem from="1772777341072" duration="590000" />
+      <workItem from="1772799963048" duration="4823000" />
+      <workItem from="1772861665725" duration="1158000" />
+      <workItem from="1773044232478" duration="11081000" />
+      <workItem from="1773120501384" duration="12572000" />
+      <workItem from="1773229651576" duration="3153000" />
+      <workItem from="1773305411326" duration="11615000" />
+      <workItem from="1773392048037" duration="8843000" />
+      <workItem from="1773467177861" duration="8329000" />
+      <workItem from="1773553219338" duration="3555000" />
+      <workItem from="1773655319365" duration="17660000" />
+      <workItem from="1773725629598" duration="20634000" />
+      <workItem from="1773834834310" duration="10479000" />
+      <workItem from="1773901404925" duration="3173000" />
+      <workItem from="1773991093050" duration="3165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication" timestamp="1773060313796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication/0.0.1536.824@0.0.1536.824" timestamp="1773060313796" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1773308237180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1773308237180" />
+    <state x="403" y="0" width="744" height="824" key="#SpringCloudAlibabaShardingSphere" timestamp="1772690365382">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#SpringCloudAlibabaShardingSphere/0.0.1536.824@0.0.1536.824" timestamp="1772690365382" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1773995077591">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1773995077591" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1773840646443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1773840646443" />
+    <state x="513" y="241" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1773836419109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="241" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.824@0.0.1536.824" timestamp="1773836419109" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1773468349404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1773468349404" />
+    <state x="524" y="113" key="#xdebugger.evaluate" timestamp="1773472284513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="113" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1773472284513" />
+    <state x="219" y="1" key="CommitChangelistDialog2" timestamp="1773995851668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="219" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1773995851668" />
+    <state width="496" height="466" key="DebuggerActiveHint" timestamp="1773761887909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="496" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1773761887909" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1773305556815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1773305556815" />
+    <state width="1493" height="563" key="GridCell.Tab.0.bottom" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.0.center" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.0.left" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.0.right" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.1.bottom" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.1.center" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.1.left" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.1.right" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.2.bottom" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.2.center" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.2.left" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state width="1493" height="563" key="GridCell.Tab.2.right" timestamp="1773844768160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="563" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1773844768160" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1772689290915">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1772689290915" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1773315999153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1773315999153" />
+    <state x="401" y="107" key="new project wizard" timestamp="1773307918442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1773307918442" />
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog" timestamp="1773665446355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="39" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1773665446355" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1773671303024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1773671303024" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1773666068422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1773666068422" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/controller/SecondKillController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaAuth/src/main/java/com/wuhk/config/ResourceServerConfig.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/SchoolStudentServiceImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/SchoolStudentServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/SchoolStudentServiceImpl.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/SchoolStudentServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaStock/src/main/java/com/wuhk/controller/StockSeataController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaStock/src/main/java/com/wuhk/service/impl/StockSeataServiceImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/OrderSeataServiceImpl.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaAuth/src/main/java/com/wuhk/controller/AuthServiceController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaDeepSeek/src/main/java/com/wuhk/config/DeepSeekClient.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaDeepSeek/src/main/java/com/wuhk/config/DeepSeekClient.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaDeepSeek/src/main/java/com/wuhk/config/DeepSeekClient.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/service/impl/ThreadTransactionalServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/service/impl/ThreadTransactionalServiceImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/service/impl/ThreadTransactionalServiceImpl.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/service/impl/ThreadTransactionalServiceImpl.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/src/main/java/com/wuhk/service/impl/ThreadTransactionalServiceImpl.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaShardingSphere/src/main/java/com/wuhk/service/impl/DictionaryServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/UserServiceImpl.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/UserServiceImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/controller/UserController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/controller/RedisNXController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/controller/RedisNXController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/controller/RedisNXController.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaVueCould/src/main/java/com/wuhk/controller/SysAdminOrderInfoController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaVueCould/src/main/java/com/wuhk/controller/SysAdminOrderInfoController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/EmploymentServiceImpl.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/EmploymentServiceImpl.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/EmploymentServiceImpl.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringCloudAlibabaOrder/src/main/java/com/wuhk/service/impl/EmploymentServiceImpl.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

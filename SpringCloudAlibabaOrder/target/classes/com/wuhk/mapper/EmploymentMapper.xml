@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhk.mapper.EmploymentMapper">
+   <select id="batchExport" parameterType="java.lang.Integer" resultType="com.wuhk.entity.Employment">
+        SELECT
+             id,
+             employment_no AS employmentNo,
+             NAME,
+             email,
+             department,
+             base_salary AS baseSalary,
+             bonus,
+             hire_date AS hireDate,
+             STATUS
+        FROM
+             employment
+        order by id
+        limit #{pageNum},#{pageSize}
+    </select>
+     <select id="batchExportNotParam" resultType="com.wuhk.entity.Employment">
+        SELECT
+             id,
+             employment_no AS employmentNo,
+             NAME,
+             email,
+             department,
+             base_salary AS baseSalary,
+             bonus,
+             hire_date AS hireDate,
+             STATUS
+        FROM
+             employment
+        order by id
+    </select>
+
+   <!-- <insert id="insertBatch">
+        INSERT INTO employment (id, employment_no,name,
+        email,department,base_salary,bonus,hire_date,status) VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.id}
+            , #{item.employmentNo}
+            , #{item.name}
+            , #{item.email}
+            , #{item.department}
+            , #{item.baseSalary}
+            , #{item.bonus}
+            , #{item.hireDate}
+            , #{item.status})
+        </foreach>
+    </insert>-->
+    <!--<insert id="batchSave" parameterType="com.wuhk.entity.OrderInfo">
+        INSERT INTO order_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="period != null">
+                period,
+            </if>
+            <if test="amount != null">
+                amount,
+            </if>
+            <if test="userName != null">
+                user_name,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+            <if test="creator != null">
+                creator,
+            </if>
+            <if test="modifier != null">
+                modifier,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="period != null">
+                #{period},
+            </if>
+            <if test="amount != null">
+                #{amount},
+            </if>
+            <if test="userName != null">
+                #{userName},
+            </if>
+            <if test="phone != null">
+                #{phone},
+            </if>
+            <if test="creator != null">
+                #{creator},
+            </if>
+            <if test="modifier != null">
+                #{modifier},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="batchExportCount" resultType="java.lang.Integer">
+        select count(id) num from order_info
+    </select>
+
+    <select id="batchExport" parameterType="java.lang.Integer" resultType="com.wuhk.entity.OrderInfo">
+        select id,period,amount,user_name userName,phone,created,creator,modified,modifier
+        from order_info
+        order by id
+        limit #{pageNum},#{pageSize}
+    </select>-->
+</mapper>

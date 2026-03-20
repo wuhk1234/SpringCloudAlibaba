@@ -1,0 +1,34 @@
+server:
+  port: 9199
+spring:
+  application:
+    name: deepseek
+  #启用配置参数
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.176.133:8847
+        group: DEFAULT_GROUP  # 缺省即可
+        namespace: 1da0831d-139f-4df3-9926-c7371ea84aba #命令空间ID
+        username: nacos
+        password: nacos
+        # 设置永久实例
+        ephemeral: false
+        # 设置永久实例
+        #ephemeral: false
+        #namespoce: public # 相同持征的服务进行归类分组管理
+        #ephemerol: false #永久实例 哪怕宕机了也额额不会删除实例
+        # service:默认收${spring.application,name}， 也可以通过该选项配置
+        #group:默认DEFAULT_GROUP 更细的相同特征的服务进行归类分组管理
+        #weight: 通常要结合 安奖 权重的负载均衡， 权重越高分配的流量就越大
+        #metadata: version=1 可以结合元数据做扩展
+      config:
+        server-addr: http://192.168.176.133:8847   #nacos地址
+        group: DEFAULT_GROUP  # 缺省即可
+        namespace: 1da0831d-139f-4df3-9926-c7371ea84aba #命令空间ID
+        file-extension: yaml  # 必须修改成yaml
+        prefix: ${spring.application.name} # 缺省即可
+        username: nacos
+        password: nacos

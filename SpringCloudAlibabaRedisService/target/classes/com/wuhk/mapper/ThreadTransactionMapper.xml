@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhk.mapper.ThreadTransactionMapper">
+    <insert id="ThreadTransactionalInsertC" parameterType="com.wuhk.entity.SysUserAddress">
+       INSERT INTO t_user (
+            id,
+            username,
+            password,
+            user_role
+        )
+        VALUES
+            (
+                #{id},
+                #{username},
+                #{password},
+                #{userRole}
+            )
+    </insert>
+    <insert id="saveBatch" parameterType="List">
+        INSERT INTO t_user (
+        id,
+        username,
+        password,
+        user_role)
+        values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
+            #{item.id},
+            #{item.username},
+            #{item.password},
+            #{item.userRole}
+            )
+        </foreach>
+    </insert>
+</mapper>

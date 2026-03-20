@@ -1,0 +1,68 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: gateway
+  #启用配置参数
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://192.168.176.133:8847
+        group: DEFAULT_GROUP  # 缺省即可
+        namespace: 1da0831d-139f-4df3-9926-c7371ea84aba #命令空间ID
+        username: nacos
+        password: nacos
+        # 设置永久实例
+        ephemeral: false
+        # 设置永久实例
+        #ephemeral: false
+        #namespoce: public # 相同持征的服务进行归类分组管理
+        #ephemerol: false #永久实例 哪怕宕机了也额额不会删除实例
+        # service:默认收${spring.application,name}， 也可以通过该选项配置
+        #group:默认DEFAULT_GROUP 更细的相同特征的服务进行归类分组管理
+        #weight: 通常要结合 安奖 权重的负载均衡， 权重越高分配的流量就越大
+        #metadata: version=1 可以结合元数据做扩展
+      config:
+        server-addr: http://192.168.176.133:8847   #nacos地址
+        group: DEFAULT_GROUP  # 缺省即可
+        namespace: 1da0831d-139f-4df3-9926-c7371ea84aba #命令空间ID
+        file-extension: yaml  # 必须修改成yaml
+        prefix: ${spring.application.name} # 缺省即可
+        username: nacos
+        password: nacos
+    #sentinel配置
+    sentinel:
+      enable: true
+      filter:
+        enabled: false
+      eager: true #立即加载
+      transport:
+        dashboard: localhost:8858 #配置Sentinel dashboard地址
+        #dashboard: 192.168.176.133:8858 #配置Sentinel dashboard地址
+      # 链路流控:因为链路流控没有维护树，需要加web-context-unify: false，否则链路流控不生效
+      web-context-unify: false
+#      datasource:
+#        ds1:
+#          nacos:
+#            server-addr: http://192.168.176.133:8847
+#            dataId: clou-sentinel-gateway
+#            namespace: 1da0831d-139f-4df3-9926-c7371ea84aba
+#            # 賬號
+#            username: nacos
+#            # 密碼
+#            password: nacos
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: flow
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8086/oauth/check_token
+      prefer-token-info: true
+    client:
+      access-token-uri: http://localhost:8086/oauth/token
+      user-authorization-uri: http://localhost:8086/oauth/authorize
+      client-id: client_1
+      client-secret: 123456

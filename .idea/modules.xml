@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibaba.iml" filepath="$PROJECT_DIR$/SpringCloudAlibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaAuth/SpringCloudAlibabaAuth.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaAuth/SpringCloudAlibabaAuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaAuthServer/SpringCloudAlibabaAuthServer.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaAuthServer/SpringCloudAlibabaAuthServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaDeepSeek/SpringCloudAlibabaDeepSeek.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaDeepSeek/SpringCloudAlibabaDeepSeek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaFlowable/SpringCloudAlibabaFlowable.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaFlowable/SpringCloudAlibabaFlowable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaGateway/SpringCloudAlibabaGateway.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaGateway/SpringCloudAlibabaGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaImageCaptcha/SpringCloudAlibabaImageCaptcha.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaImageCaptcha/SpringCloudAlibabaImageCaptcha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaOrder/SpringCloudAlibabaOrder.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaOrder/SpringCloudAlibabaOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaRedisService/SpringCloudAlibabaRedisService.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaRedisService/SpringCloudAlibabaRedisService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaSentinel/SpringCloudAlibabaSentinel.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaSentinel/SpringCloudAlibabaSentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaShardingSphere/SpringCloudAlibabaShardingSphere.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaShardingSphere/SpringCloudAlibabaShardingSphere.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaStock/SpringCloudAlibabaStock.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaStock/SpringCloudAlibabaStock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaStreamKafka/SpringCloudAlibabaStreamKafka.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaStreamKafka/SpringCloudAlibabaStreamKafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAlibabaVueCould/SpringCloudAlibabaVueCould.iml" filepath="$PROJECT_DIR$/SpringCloudAlibabaVueCould/SpringCloudAlibabaVueCould.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-nacos/sentinel-nacos.iml" filepath="$PROJECT_DIR$/sentinel-nacos/sentinel-nacos.iml" />
+    </modules>
+  </component>
+</project>

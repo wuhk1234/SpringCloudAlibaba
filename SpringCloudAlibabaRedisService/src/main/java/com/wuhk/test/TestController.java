@@ -1,11 +1,7 @@
 package com.wuhk.test;
 
-import org.checkerframework.checker.units.qual.C;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.concurrent.*;
+import java.math.BigDecimal;
+import java.util.*;
 
 /**
  * @className: TestController
@@ -17,7 +13,81 @@ import java.util.concurrent.*;
  **/
 
 public class TestController {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
+        grapRed(10,6);
+    }
+    /**
+     * 拆红包
+     * @param price 红包总金额
+     * @param person 红包个数
+     */
+    public static void grapRed(int price,int person){
+        List<BigDecimal> moneys = math(BigDecimal.valueOf(price), person);
+        if (moneys != null) {
+            BigDecimal b = new BigDecimal(0);
+            int num = 1;
+            for (BigDecimal bigDecimal : moneys) {
+                System.out.println("第" + num + "个人抢到：" + bigDecimal + "元    ");
+                b = b.add(bigDecimal);
+                num++;
+            }
+            for (int i = 0;i < moneys.size(); i++) {
+                BigDecimal bigDecimal = moneys.get(i);
+                if (bigDecimal.equals(Collections.max(moneys))) {
+                    System.out.println("运气王是第"+(i + 1)+"个人，" + "金额最大值：" + Collections.max(moneys));
+                }
+            }
+            System.out.println("红包总额：" + b + "元 ");
+        }
+    }
+    /**
+     * 计算每人获得红包金额;最小每人0.01元
+     * @param redPrice  红包总额
+     * @param personNumber 人数
+     * @return
+     */
+    public static List<BigDecimal> math(BigDecimal redPrice, int personNumber) {
+        if (redPrice.doubleValue() < personNumber * 0.01) {//发红包最少0.01*personNumber
+            return null;
+        }
+        Random random = new Random();
+        // 将红包总金额换算为单位分
+        int money = redPrice.multiply(BigDecimal.valueOf(100)).intValue();
+        double count = 0;// 随机数总额
+        // 每人获得随机点数
+        double[] arrRandom = new double[personNumber];
+        // 每人获得钱数
+        List<BigDecimal> arrMoney = new ArrayList<BigDecimal>(personNumber);
+        // 循环人数 随机点
+        for (int i = 0; i < arrRandom.length; i++) {
+            int r = random.nextInt((personNumber) * 99) + 1;
+            count += r;
+            arrRandom[i] = r;
+        }
+        // 计算每人拆红包获得金额
+        int c = 0;
+        for (int i = 0; i < arrRandom.length; i++) {
+            // 每人获得随机数相加 计算每人占百分比
+            Double x = new Double(arrRandom[i] / count);
+            // 每人通过百分比获得金额
+            int m = (int) Math.floor(x * money);
+            // 如果获得 0 金额，则设置最小值 1分钱
+            if (m == 0) {
+                m = 1;
+            }
+            c += m;// 计算获得总额
+            // 如果不是最后一个人则正常计算
+            if (i < arrRandom.length - 1) {
+                arrMoney.add(new BigDecimal(m).divide(new BigDecimal(100)));
+            } else {
+                // 如果是最后一个人，则把剩余的钱数给最后一个人
+                arrMoney.add(new BigDecimal(money - c + m).divide(new BigDecimal(100)));
+            }
+        }
+        // 随机打乱每人获得金额
+        Collections.shuffle(arrMoney);
+        return arrMoney;
+    }
         //Fail-fast ： 表示快速失败，在集合遍历过程中，一旦发现容器中的数据被修改了，会
         //立刻抛出 ConcurrentModificationException 异常，从而导致遍历失败，集合有HashMap，ArrayList
         /*Map<String ,String> map = new HashMap<>();
@@ -48,7 +118,7 @@ public class TestController {
             }
         }*/
 
-        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        /*ExecutorService executorService = Executors.newFixedThreadPool(10);
         CountDownLatch countDownLatch = new CountDownLatch(1);
         executorService.execute(() -> {
             try {
@@ -61,5 +131,5 @@ public class TestController {
         countDownLatch.await();
         executorService.shutdown();
     }
-    ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
+    ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();*/
 }

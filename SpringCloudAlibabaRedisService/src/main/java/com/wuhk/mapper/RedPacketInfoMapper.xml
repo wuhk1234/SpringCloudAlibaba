@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhk.mapper.RedPacketInfoMapper">
+    <update id="updateByExampleSelective" parameterType="com.wuhk.entity.RedPacketInfo">
+        UPDATE red_packet_info
+        SET red_packet_id = #{redPacketId},
+        total_amount = #{totalAmount},
+        total_packet = #{totalPacket},
+        remaining_amount = #{remainingAmount},
+        remaining_packet = #{remainingPacket},
+        uid = #{uid},
+        create_time = #{createTime},
+        update_time = #{updateTime}
+        WHERE
+            id = #{id}
+    </update>
+    <update id="updateByPrimaryKeySelective"  parameterType="com.wuhk.entity.RedPacketInfo">
+        UPDATE red_packet_info
+        SET red_packet_id = #{redPacketId},
+        total_amount = #{totalAmount},
+        total_packet = #{totalPacket},
+        remaining_amount = #{remainingAmount},
+        remaining_packet = #{remainingPacket},
+        uid = #{uid},
+        create_time = #{createTime},
+        update_time = #{updateTime}
+        WHERE
+            id = #{id}
+    </update>
+
+    <insert id="insertSelective"  parameterType="com.wuhk.entity.RedPacketInfo">
+        INSERT INTO red_packet_info (
+        id,
+        red_packet_id,
+        total_amount,
+        total_packet,
+        remaining_amount,
+        remaining_packet,
+        uid,
+        create_time,
+        update_time)
+        values
+            (#{id},
+        #{redPacketId},
+        #{totalAmount},
+        #{totalPacket},
+        #{remainingAmount},
+        #{remainingPacket},
+        #{uid},
+        #{createTime},
+        #{updateTime}
+            )
+    </insert>
+</mapper>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wuhk.mapper.UserScoreMapper">
+    <select id="selectByExample" resultType="com.wuhk.entity.UserScore">
+        SELECT user_id as userId,user_score as userScore,user_name as userName FROM user_score
+    </select>
+</mapper>

@@ -2,7 +2,7 @@ package com.wuhk.service.impl;
 
 import com.google.protobuf.ServiceException;
 import com.wuhk.config.ExecutorConfig;
-import com.wuhk.config.ListPublicUse;
+import com.wuhk.util.ListPublicUse;
 import com.wuhk.config.SqlContext;
 import com.wuhk.entity.SysUserAddress;
 import com.wuhk.mapper.ThreadTransactionMapper;
